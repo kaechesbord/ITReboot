@@ -1,0 +1,12 @@
+.text{
+    background-color: aliceblue;
+    width: 500px;
+    height: 250px;
+    overflow: scroll;
+}
+.text-cont{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
