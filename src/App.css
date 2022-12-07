@@ -1,12 +1,17 @@
 .text{
     background-color: aliceblue;
     width: 500px;
-    height: 250px;
-    overflow: scroll;
+    height: 350px;
+    border-radius: 5%;
+    padding: 10px;
 }
 .text-cont{
     display: flex;
     justify-content: center;
     height: 500px;
     align-items: center;
+    margin-bottom: 150px;
+}
+.nav-link{
+    cursor: pointer;
 }
