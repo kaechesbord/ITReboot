@@ -4,6 +4,9 @@
     height: 350px;
     border-radius: 5%;
     padding: 10px;
+    box-shadow: 5px 10px 5px 0px rgba(99,14,14,0.75);
+-webkit-box-shadow: 5px 10px 5px 0px rgba(99,14,14,0.75);
+-moz-box-shadow: 5px 10px 5px 0px rgba(99,14,14,0.75);
 }
 .text-cont{
     display: flex;
@@ -11,6 +14,7 @@
     height: 500px;
     align-items: center;
     margin-bottom: 150px;
+    
 }
 .nav-link{
     cursor: pointer;
