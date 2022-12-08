@@ -32,3 +32,110 @@
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: rgb(185, 164, 185);
 }
+*{
+    font-family: Arial, sans-serif;
+}
+.contained-reg{
+    background-color: #192841;
+  }
+  .contained-log{
+    background-color: #FF6863;
+  }
+  .contained-home{
+    background-color: chartreuse;
+}
+  input:focus{
+    outline: none;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .form{
+    background-color: aliceblue;
+    height: 400px;
+    width: 700px;
+    border-radius: 5%;
+    padding: 10px;
+  }
+  .form2{
+    background-color: aliceblue;
+    height: 400px;
+    width: 400px;
+    border-radius: 5%;
+    padding: 10px;
+  }
+  .header{
+    color: #192841  ;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .input{
+    background-color: aliceblue;
+    border-bottom-color: #192841 ;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    width: 270px;
+    margin-right: 70px;
+    color: #192841 ;
+    font-size: 1.1rem;
+    margin-left: 20px;
+    margin-bottom: 40px;
+  }
+  .upperlogin{
+    display: flex;
+  }
+  .lowerlogin{
+    display: flex;
+  }
+  .alr{
+    color: #192841  ;
+    font-weight: 500;
+    text-align: center;
+  }
+  .alr-link{
+    text-decoration: none;
+  } 
+  .password{
+    display: flex;
+  }
+  .password input {
+    margin-right: 0px;
+  }
+  .eye{
+    background: none;
+      color: #192841 ;
+      border: none;
+      padding: 0;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit;
+      margin-bottom: 30px;
+  }
+  .lowerlogin2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .submit{
+    background-color: #192841;
+    width: 300px;
+    height: 50px;
+    border-radius: 50cm;
+    color: aliceblue;
+    transition: background-color  330ms ;
+  }
+  .submit:hover{
+    background-color: #304c7c;
+  }
+  .btncont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .email2{
+    padding-left: 50px;
+  }

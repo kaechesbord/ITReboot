@@ -5,6 +5,7 @@ import About from "./About";
 import About2 from "./About2";
 import About3 from "./About3";
 import {useRef} from 'react';
+import { Link } from "react-router-dom";
 
   
 const Main = () => {
@@ -27,7 +28,7 @@ const Main = () => {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-           Navbar
+           Onaj Logo
           </a>
           <button
             className="navbar-toggler"
@@ -55,6 +56,11 @@ const Main = () => {
               <li className="nav-item">
                 <a className="nav-link" onClick={handleClick3}>
                   Vamo neš treće
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" onClick={handleClick3}>
+                <Link className="alr-link" to={"/register"}> Registracija</Link> 
                 </a>
               </li>
             </ul>
